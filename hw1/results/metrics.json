@@ -1,0 +1,65 @@
+{
+  "flops": {
+    "calibration": {
+      "n": 63,
+      "mape_percent": 0.0,
+      "rmse": 0.0,
+      "r2": 1.0
+    },
+    "unseen_validation": {
+      "n": 69,
+      "mape_percent": 0.0,
+      "rmse": 0.0,
+      "r2": 1.0
+    }
+  },
+  "memory": {
+    "calibration": {
+      "n": 63,
+      "mape_percent": 57.90614184526957,
+      "rmse": 346888794.77201515,
+      "r2": 0.7867354044698496
+    },
+    "unseen_validation": {
+      "n": 69,
+      "mape_percent": 58.80833988040016,
+      "rmse": 383281150.01650983,
+      "r2": 0.7029001370625223
+    }
+  },
+  "latency": {
+    "calibration": {
+      "n": 63,
+      "mape_percent": 18.47523844161491,
+      "rmse": 0.002405091735089308,
+      "r2": 0.9950396845987183
+    },
+    "unseen_validation": {
+      "n": 69,
+      "mape_percent": 17.26943934833401,
+      "rmse": 0.004423624097173813,
+      "r2": 0.9818980822826097
+    }
+  },
+  "energy": {
+    "calibration": {
+      "n": 63,
+      "mape_percent": 12.140375480973123,
+      "rmse": 0.41642476138256795,
+      "r2": 0.992925024854573
+    },
+    "unseen_validation": {
+      "n": 69,
+      "mape_percent": 13.75740749964056,
+      "rmse": 0.7318809565121723,
+      "r2": 0.9762155717979066
+    }
+  },
+  "oom": {
+    "actual_count": 0,
+    "predicted_count": 0,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 0
+  }
+}
